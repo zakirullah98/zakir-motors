@@ -1,0 +1,162 @@
+
+
+   
+<p id="notice"><%= notice %></p>
+
+
+
+<table>
+
+
+
+
+ 
+
+
+
+
+ <% @vehicles.each do |vehicle| %>
+ 
+ 
+ 
+    <tr></a><td><table> 
+    
+    
+    
+    
+    <tr>
+        
+      <td>
+          
+        <strong>Company:</strong>
+          
+      </td>  
+      <td>
+          
+    <%= vehicle.company %>
+          
+      </td> 
+      
+      </tr>
+      
+      
+      <tr>
+        
+      <td>
+          
+        <strong>Model:</strong>
+          
+      </td>  
+      <td>
+          
+    <%= vehicle.model %>
+          
+      </td> 
+      
+      </tr>
+      
+      
+      
+      <tr>
+      <td>
+          
+          
+          
+    <strong>Price:</strong>
+     
+ 
+          
+          
+      </td>  
+        
+      <td>
+          
+          
+    <%= vehicle.price %>  
+          
+          
+          
+      </td>  
+        
+    </tr>
+    
+    
+    
+    <tr>
+      <td>
+          
+          
+          
+    <strong>Discription:</strong>
+     
+ 
+          
+          
+      </td>  
+        
+      <td>
+          
+          
+    <%= vehicle.discription %>  
+          
+          
+          
+      </td>  
+        
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </table>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </td> <td><%= image_tag(vehicle.iamge) %></td> 
+       
+       
+       
+        
+       
+       
+        
+       
+     
+        
+   
+    
+   <% end %>
+
+
+
+
+
+</table>
+
+<br>
+
+<%= link_to 'New Vehicle', new_vehicle_path %>
+

@@ -1,0 +1,162 @@
+  
+<!doctype html>
+<html>
+<head>
+<title>ZakirMotors</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>  
+  
+  
+  
+  
+  
+  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>adage - Free CSS Template by ZyPOP</title>
+<link rel="stylesheet" href="temp.css" type="text/css" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--
+adage, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
+
+Download: http://zypopwebtemplates.com/
+
+License: Creative Commons Attribution
+//-->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+<body>
+    
+<div id="container" class="width">
+  
+    <header>
+
+    	<h1><a href="/">Company<span>  ZM Motors</span></a></h1>
+
+    </header>
+
+    <nav>
+	<div class="inner-nav">
+    		<ul>
+        		<li class="start selected"> <%= link_to "Home",  root_path  %></li>
+        		<li class="nav"><%= link_to "About",  about_path  %></li>
+        	    <li class="nav"><%= link_to "New Cars",  ncars_path  %></li>
+         	   	<li class="nav"><%= link_to "Order",  orders_path  %></li>
+          	  	<li class="nav"><%= link_to "Users",  customers_path  %></li>
+          	 	<li class="end"><%= link_to "Contact Us",  contact_path  %></li>
+        	</ul>
+	</div>
+    </nav>
+
+    <div id="body">
+
+		
+
+		<section id="content">
+
+	    
+	<%= yield %>
+		    
+        </section>
+        
+        <aside class="sidebar">
+	
+            <ul>	
+               <li>
+                    <h4><span>External Sites</span></h4>
+                    <ul>
+                    <li><a href="http://www.chevrolet.com/">www.Chevrolet.com</a></li>
+                    <li><a href="http://www.buick.com/">www.Buick.com</a></li>
+                    <li><a href="http://www.gm.com/">www.GM.com</a></li>
+                    <li><a href="http://www.gmc.com/">www.Gmc.com</a></li>
+                    <li><a href="http://www.cadillac.com/">www.Cadillac.com</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h4><span>About us</span></h4>
+                    <ul>
+                        <li class="text">
+                        	<p style="margin: 0;">ZM-Motors is the leading online destination for car shoppers and owners. We offer credible and easy-to-understand information to help 					<a href="#" class="readmore">Read More &raquo;</a></p>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                	<h4><span>Search site</span></h4>
+                    <ul>
+                    	<li class="text">
+                            <form method="get" class="searchform" action="#" >
+                                <p>
+                                    <input type="text" size="45" value="" name="s" class="s" />
+                                    
+                                </p>
+                            </form>	
+						</li>
+					</ul>
+                </li>
+                
+                <li>
+                    <h4><span>Helpful Links</span></h4>
+                    <ul>
+                        <li><a href="http://www.gmc.com/?evar25=gmcom_global_gmc" title="premium templates">GMC.com</a></li>
+                        <li><a href="http://www.cadillac.com/?evar25=gmcom_global_cadillac" title="web hosting">cadillac.com</a></li>
+                    
+                    </ul>
+                </li>
+                
+            </ul>
+		
+        </aside>
+    	<div class="clear"></div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <ul>
+            	<li><h4>Follow Us</h4></li>
+                <li><a href="#">FaceBook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Google+</a></li>
+                <li><a href="#">Linkedin </a></li>
+                <li><a href="#">Curabitur sit amet tellus</a></li>
+            </ul>
+            
+            <ul>
+            	<li><h4>Quick Links</h4></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">New Cars</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Cras dictum</a></li>
+            </ul>
+            
+            <ul class="endfooter">
+                
+            	<li><h4>External Sites</h4></li>
+                <li><a href="http://www.chevrolet.com/">Chevrolet</a></li>
+                <li><a href="http://www.buick.com/">Buick</a></li>
+                <li><a href="http://www.gm.com/">GM</a></li>
+                <li><a href="http://www.gmc.com/">Gmc</a></li>
+                <li><a href="http://www.cadillac.com/">Cadillac</a></li>
+            </ul>
+            
+            <div class="clear"></div>
+        </div>
+      
+        <div class="footer-bottom">
+            <p>&copy; 2016 All rights reserved to ZM Motors. <a href="http://zypopwe</p>
+         </div>
+    </footer>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
